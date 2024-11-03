@@ -31,23 +31,23 @@ Tugas ini melibatkan dua komponen utama:
 
 #### Struktur Proyek
 
-.
+```bash
 ├── docker-compose.yaml
 ├── producer.py
 ├── consumer.py
 ├── image
 └── README.md
-
-````
+```
 
 ## Langkah-langkah instalasi dan menjalankan proyek
 
 ### 1. Menjalankan afka dan Zookeeper dengan Docker
+
 Docker dan Docker Compose pastikan sudah terinstall. Menggunakan file `docker-compose.yaml` untuk menjalankan Apache Kafka dan Zookeeper.
 
 ```bash
 docker-compose up -d
-````
+```
 
 #### 2. Menjalankan Producer
 
